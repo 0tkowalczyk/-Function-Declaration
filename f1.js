@@ -10,7 +10,7 @@
 // (1) First Task
 // Declare a function named double() which outputs a number double the input number.
 function double (x){
-    return x*2
+    return x*2;
 }
 
 
@@ -21,7 +21,7 @@ function double (x){
 // (2) Second Task
 // Declare a function named plusplus() which outputs a number one higher than the input number.
 function plusplus(x){
-    return x+1
+    return x+1;
 }
 
 
@@ -45,7 +45,8 @@ function oppRecip (x){
 // Declare a function named pthagorean() which has two inputs you guessed it a and b.
 // The function outputs the value of the third side of the right triangle.
 function pythagorean(a,b){
-    return a * a + b * b
+    let c = a * a + b * b;
+    return Math.sqrt(c);
 }
 
 
@@ -56,7 +57,7 @@ function pythagorean(a,b){
 // Declare a function named circleArea() which has one input named radius.
 // The function outputs the area of the circle.
 function circleArea(radius){
-    return radius * 3.14
+    return radius*radius * 3.14;
 }
 
 
@@ -67,7 +68,7 @@ function circleArea(radius){
 // Declare a function named boxVolume() which has three inputs: length, width, and depth.
 // The function outputs the volume of the box;
 function boxVolume(lenght, width, depth){
-    return lenght * width * depth
+    return lenght * width * depth;
 }
 
 
@@ -83,7 +84,7 @@ function boxVolume(lenght, width, depth){
 // Declare a function named thisIsMadness() which accepts one string input named city.
 // The function should output the string: "No! This is <city>!!"
 function thisIsMadness(city){
-    return "No! This is " + city
+    return "No! This is " + city;
 }
 
 
@@ -120,15 +121,9 @@ function beefDay(){
 // (10) Tenth Task
 // Declare a function named xor() which has two inputs a and b.
 // This function returns the exclusive or of the two boolean inputs.
-
-
-
-
-
-
-
-
-
+function xor(a,b) {
+    return ( a || b ) && !( a && b );
+  }
 
 /**************************** END OF FILE *******************************/
 //Declaration of main function
